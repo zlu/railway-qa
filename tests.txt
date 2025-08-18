@@ -1,0 +1,26 @@
+1. What steps are included in the general repair framework for DCU maintenance?
+Answer:
+The general repair framework includes:
+Fault Identification – Using the DCU’s fault code display (e.g., dark screen, error codes) to determine the issue.
+Root Cause Analysis – Referring to fault documentation to trace possible causes such as faulty wiring or mechanical damage.
+Corrective Actions – Following step-by-step instructions to repair or replace faulty components, adjust settings, or rewire connections                                         
+
+2. What are the typical tools needed for DCU maintenance?
+Answer:
+Common tools include spanners, Allen keys, screwdriver bits, circlip pliers, knives, scissors, and hammers.                                                                          
+
+3. How should a train operator respond when all doors fail to close?                            Answer：                                                                          
+1）A single door failing to close: Check for obstructions, attempt to close the door again, and inform control if it remains open.
+2) All doors on one car failing to close: Use the porter’s button (on the outside of each car) to close doors; if unsuccessful, check and reset relevant door miniature circuit breakers. If issues persist, inform control, operate the door isolating cock in the affected car, manually close the doors, and operate the TDIC (Train Door Interlock Cut-Out) switch.
+3) All doors on the train failing to close: Shut down the driving cab, trip and reset the TMS2 miniature circuit breaker. If the fault persists, try closing doors using buttons in another driving cab; if still unsuccessful, inform control and follow their instructions.                                                                     
+
+4. What are the common causes for slamming doors?
+Answer:
+Causes: Incorrect piston-rod length, crank position, or speed control settings.  
+
+5.What are the maintenance steps for the emergency release mechanism?
+Answer:
+Test manual operation of the emergency release mechanism.
+Lubricate components.
+Adjust the release device.
+Replace the entire mechanism if needed.

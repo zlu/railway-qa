@@ -1,0 +1,40 @@
+1. What should be done if the DCU display is dark or shows no power?
+Expert Answer (Simple):
+Disconnect all electrical loads and measure current consumption.
+
+Novice Answer (Full):
+Disconnect all electrical loads and measure current consumption to check for overloads; use a higher-capacity DCU if needed.
+Inspect for water damage; replace with a water-resistant DCU (e.g., TS in housing XL) if damaged.
+Verify input voltage; restore correct mains supply per technical data.
+If the DCU remains non-functional in delivery condition (all cables disconnected), replace the DCU.                                                                         
+
+2. How should relays and solenoids be maintained?
+Expert Answer (Simple):
+Replace faulty relays or solenoids.
+
+Novice Answer (Full):
+Test the operation of relays and solenoids.
+Replace faulty relays or solenoids.                                                                   
+
+3. What are the maintenance steps for sensors?
+Expert Answer (Simple):
+Test sensor detection range and signal transmission.
+
+Novice Answer (Full):
+Test sensor detection range and signal transmission.
+Calibrate sensor positions; replace faulty sensors.                                                     
+
+4. What are the maintenance steps for the emergency release mechanism?
+Expert Answer (Simple):
+Test manual operation of the emergency release mechanism.
+
+Novice Answer (Full):Test manual operation of the emergency release mechanism.
+Lubricate components, adjust the release device, and replace the entire mechanism if needed. 
+
+5.What are the maintenance steps for limit, proximity, and micro switches?
+Expert Answer (Simple):
+Test switch triggering functions and signal output.
+
+Novice Answer (Full):
+Test switch triggering functions and signal output.
+Adjust switch positions; replace damaged switches.

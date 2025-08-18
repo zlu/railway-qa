@@ -1,0 +1,32 @@
+# Core LangChain dependencies
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+
+# Vector database
+chromadb>=0.4.0
+faiss-cpu>=1.7.0
+
+# Web framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# HTTP client for Ollama
+requests>=2.31.0
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Jupyter for notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Pydantic for data validation
+pydantic>=2.0.0
+
+# Optional: for better PDF processing
+pdfplumber>=0.10.0
