@@ -1,0 +1,34 @@
+1. What steps are included in the general repair framework for DCU maintenance?
+Expert Answer:
+Fault Identification using DCU fault code display. Root Cause Analysis via fault documentation. Corrective Actions following step-by-step repair procedures.
+
+Novice Answer:
+The repair process has three main steps: First, identify the problem using the DCU's display screen that shows error codes. Second, figure out what's causing the problem by checking the fault documentation. Third, fix the problem by following the repair instructions step by step.
+
+2. What are the typical tools needed for DCU maintenance?
+Expert Answer:
+Spanners (24-4mm A/F), Allen keys (1.5-12mm), screwdriver bits, circlip pliers, knives, scissors, hammers.
+
+Novice Answer:
+You'll need various hand tools: different sizes of spanners (wrenches) from 24mm down to 4mm, Allen keys (hex-shaped tools) in sizes from 1.5mm to 12mm, screwdriver bits, special pliers for circlips (small metal rings), knives, scissors, and hammers.
+
+3. How should a train operator respond when all doors fail to close?
+Expert Answer:
+Check obstructions, attempt re-closure, inform control. Use porter's button, reset circuit breakers. Operate door isolating cock, manually close doors, activate TDIC switch.
+
+Novice Answer:
+When doors won't close, first check if something is blocking them and try closing them again, then tell the control center. If that doesn't work, use the porter's button (located outside each car) to close the doors. If that fails, check and reset the door circuit breakers. As a last resort, use the door isolating valve in the affected car, close the doors by hand, and then use the TDIC (Train Door Interlock Cut-Out) switch.
+
+4. What are the common causes for slamming doors?
+Expert Answer:
+Incorrect piston-rod length, crank position, or speed control settings.
+
+Novice Answer:
+Doors slam when the piston rods (the parts that push and pull the doors) are the wrong length, when the cranks (the mechanical parts that convert rotary motion to linear motion) are in the wrong position, or when the speed control settings are not adjusted properly.
+
+5. What are the maintenance steps for the emergency release mechanism?
+Expert Answer:
+Test manual operation. Lubricate components. Adjust release device. Replace mechanism if required.
+
+Novice Answer:
+To maintain the emergency release mechanism: First, test that it works when operated by hand. Then lubricate (add oil or grease to) the moving parts. Next, adjust the release device to make sure it's positioned correctly. Finally, if the mechanism is damaged or not working properly, replace the entire unit.

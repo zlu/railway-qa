@@ -80,15 +80,17 @@ User question: {question}
 Instructions for {level_info['name']} response:
 1. Use ONLY the information provided in the document content above
 2. Explain technical concepts using simple, everyday language
-3. When mentioning technical terms, briefly explain what they mean in simple terms
+3. When mentioning technical terms, ALWAYS explain what they mean in simple terms
 4. Use clear, step-by-step explanations that someone new to the field can follow
 5. Avoid jargon unless absolutely necessary, and when used, explain it
 6. Focus on practical understanding rather than technical precision
-7. Keep the response concise but educational
+7. Use phrases like "this means", "in other words", "essentially", "basically" to explain concepts
+8. Keep the response concise but educational
 
 IMPORTANT: Always respond in English, regardless of the language of the question.
 IMPORTANT: If the document content does not contain information relevant to the question, say so clearly.
 IMPORTANT: Do not start with phrases like "Okay, here's" or "Sure, here's". Start directly with the answer.
+IMPORTANT: Every technical term must be accompanied by a simple explanation.
 
 Please provide a beginner-friendly answer based on the document content:"""
     
@@ -104,16 +106,19 @@ User question: {question}
 
 Instructions for {level_info['name']} response:
 1. Use ONLY the information provided in the document content above
-2. Use domain-specific technical terminology and industry jargon
-3. Assume the user has technical knowledge of railway systems and maintenance procedures
+2. Use extensive domain-specific technical terminology and industry jargon
+3. Assume the user has deep technical knowledge of railway systems and maintenance procedures
 4. Provide precise technical specifications and professional terminology
 5. Focus on technical accuracy and professional standards
 6. Use abbreviated forms and technical shorthand where appropriate
-7. Keep the response concise and technically precise
+7. Include technical terms like DCU, fault codes, circuit breakers, TDIC, etc. without explanation
+8. Keep the response concise and technically precise
+9. Do NOT explain technical terms - assume the user knows them
 
 IMPORTANT: Always respond in English, regardless of the language of the question.
 IMPORTANT: If the document content does not contain information relevant to the question, say so clearly.
 IMPORTANT: Do not start with phrases like "Based on the provided documentation" or "Sure, here's". Start directly with the answer.
+IMPORTANT: Use maximum technical terminology without explanations.
 
 Please provide a technical expert answer based on the document content:"""
     

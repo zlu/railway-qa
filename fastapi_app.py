@@ -5,8 +5,8 @@ from backend import answer_question, get_user_level_info
 
 app = FastAPI(
     title="Railway RAG API",
-    description="Intelligent RAG system with user-level adaptive responses - Door Control Maintenance Guidelines",
-    version="3.0.0"
+    description="Intelligent RAG system with user-level adaptive responses",
+    version="1.0.0"
 )
 
 # Allow CORS for local testing and development
@@ -51,7 +51,7 @@ def root():
     user_levels = get_user_level_info()
     return {
         "message": "Intelligent Railway RAG System - User Level Adaptive",
-        "version": "3.0.0",
+        "version": "1.0.0",
         "features": {
             "user_levels": "Supports beginner and expert levels",
             "llm_models": ["gemma3", "mistral"]
@@ -68,11 +68,6 @@ def root():
 def get_levels():
     """Get user level information for frontend button display"""
     return get_user_level_info()
-
-@app.get("/ui")
-def get_ui():
-    """Redirect to Gradio interface"""
-    return {"message": "Please use the Gradio interface at http://localhost:7860"}
 
 @app.get("/health")
 def health_check():
