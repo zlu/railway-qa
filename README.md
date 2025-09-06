@@ -68,7 +68,9 @@ railway_rag_project/
    
    Or start the API server:
    ```bash
-   python fastapi_app.py
+   python fastapi_app.
+   OR for developer mode:
+   uvicorn fastapi_app:app --reload --host 0.0.0.0 --port 8000
    ```
 
 2. **Open the Gradio interface**:
