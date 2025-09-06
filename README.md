@@ -57,21 +57,9 @@ railway_rag_project/
    ollama pull nomic-embed-text
    ```
 
-## Installation
-
-1. **Verify setup**:
-   ```bash
-   python setup.py
-   ```
-
-2. **Quick start**:
-   ```bash
-   ./quick_start.sh
-   ```
-
 ## Usage
 
-### Web Interface Usage
+### Web Interface Usage (which can be used to test the system instead of using Unity)
 
 1. **Start the Gradio interface (recommended)**:
    ```bash

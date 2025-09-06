@@ -1,9 +1,8 @@
 import requests
-import json
 from typing import List
 
 class OllamaEmbeddings:
-    def __init__(self, model_name="bge-m3", base_url="http://localhost:11434/api"):
+    def __init__(self, model_name="nomic-embed-text", base_url="http://localhost:11434/api"):
         self.model_name = model_name
         self.base_url = base_url
         self.embed_url = f"{base_url}/embeddings"
@@ -24,9 +23,9 @@ class OllamaEmbeddings:
             except Exception as e:
                 print(f"Error getting embedding: {e}")
                 # Return zero vector if there's an error
-                embeddings.append([0.0] * 1024)  # bge-m3 uses 1024 dimensions
+                embeddings.append([0.0] * 768)  # nomic-embed-text uses 768 dimensions
         return embeddings
     
     def embed_query(self, text: str) -> List[float]:
-        """Embed a single query (same as document for bge-m3)"""
+        """Embed a single query (same as document for nomic-embed-text)"""
         return self.embed_documents([text])[0]
